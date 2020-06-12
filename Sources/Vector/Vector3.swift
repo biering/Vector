@@ -8,9 +8,9 @@
 import Foundation
 
 public struct Vector3: Codable {
-     var x: Scalar
-     var y: Scalar
-     var z: Scalar
+     public var x: Scalar
+     public var y: Scalar
+     public var z: Scalar
 }
 
 extension Vector3: Hashable {

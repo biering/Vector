@@ -8,22 +8,22 @@
 import Foundation
 
 public struct Matrix4 {
-     var m11: Scalar
-     var m12: Scalar
-     var m13: Scalar
-     var m14: Scalar
-     var m21: Scalar
-     var m22: Scalar
-     var m23: Scalar
-     var m24: Scalar
-     var m31: Scalar
-     var m32: Scalar
-     var m33: Scalar
-     var m34: Scalar
-     var m41: Scalar
-     var m42: Scalar
-     var m43: Scalar
-     var m44: Scalar
+     public var m11: Scalar
+     public var m12: Scalar
+     public var m13: Scalar
+     public var m14: Scalar
+     public var m21: Scalar
+     public var m22: Scalar
+     public var m23: Scalar
+     public var m24: Scalar
+     public var m31: Scalar
+     public var m32: Scalar
+     public var m33: Scalar
+     public var m34: Scalar
+     public var m41: Scalar
+     public var m42: Scalar
+     public var m43: Scalar
+     public var m44: Scalar
 }
 
 extension Matrix4: Hashable {

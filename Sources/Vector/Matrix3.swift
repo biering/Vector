@@ -8,15 +8,15 @@
 import Foundation
 
 public struct Matrix3: Codable {
-     var m11: Scalar
-     var m12: Scalar
-     var m13: Scalar
-     var m21: Scalar
-     var m22: Scalar
-     var m23: Scalar
-     var m31: Scalar
-     var m32: Scalar
-     var m33: Scalar
+     public var m11: Scalar
+     public var m12: Scalar
+     public var m13: Scalar
+     public var m21: Scalar
+     public var m22: Scalar
+     public var m23: Scalar
+     public var m31: Scalar
+     public var m32: Scalar
+     public var m33: Scalar
 }
 
 extension Matrix3: Hashable {

@@ -8,10 +8,10 @@
 import Foundation
 
 public struct Quaternion {
-     var x: Scalar
-     var y: Scalar
-     var z: Scalar
-     var w: Scalar
+     public var x: Scalar
+     public var y: Scalar
+     public var z: Scalar
+     public var w: Scalar
 }
 
 extension Quaternion: Hashable {

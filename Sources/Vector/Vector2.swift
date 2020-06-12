@@ -8,8 +8,8 @@
 import Foundation
 
 public struct Vector2 {
-     var x: Scalar
-     var y: Scalar
+     public var x: Scalar
+     public var y: Scalar
 }
 
 extension Vector2: Hashable {
